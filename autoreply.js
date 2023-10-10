@@ -120,6 +120,9 @@ const autoReply2 = (msg) => {
     if(msg.match(/gn/gi)){
         R = "sendAudio:gon"
     }
+    if(msg.match(/fuck|xxx|sexy/gi)){
+        R = "sendAudio:fuck"
+    }
     if(msg.match(/aaw|halo|manika|lamayo|😘|😍|❤️|love|adare/gi)){
         R = "sendAudio:115"
     }
