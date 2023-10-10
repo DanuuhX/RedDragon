@@ -111,6 +111,10 @@ const autoReply2 = (msg) => {
     if(msg.match(/balla|bll|pko/gi)){
         R = "sendAudio:114"
     }
+    if(msg.match(/Mk|mk/gi)){
+        R = "sendAudio:mk"
+    }
+
     if(msg.match(/aaw|halo|manika|lamayo|😘|😍|❤️|love|adare/gi)){
         R = "sendAudio:115"
     }
