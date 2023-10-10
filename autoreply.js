@@ -126,6 +126,9 @@ const autoReply2 = (msg) => {
     if(msg.match(/keriya|hukahan|hukapan/gi)){
         R = "sendAudio:keri"
     }
+    if(msg.match(/pakaya|ponnaya|ukan|huththo/gi)){
+        R = "sendAudio:pako"
+    }
     if(msg.match(/aaw|halo|manika|lamayo|😘|😍|❤️|love|adare/gi)){
         R = "sendAudio:115"
     }
