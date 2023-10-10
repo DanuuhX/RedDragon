@@ -87,7 +87,7 @@ const autoReply = (msg) => {
         R = "sendSticker:smile"
     }
     if(msg.match(/mk/gi)){
-        R = "පෙන් නැද්ද හරකො චැට් කරනව කියල"
+        R = "මුකුත් නෑ අනෙහ්"
     }
     if(msg.match(/🙂/gi)){
         R = "හ්ම්💔"
@@ -129,6 +129,7 @@ const autoReply2 = (msg) => {
     if(msg.match(/pakaya|ponnaya|ukan|huththo/gi)){
         R = "sendAudio:pako"
     }
+
     if(msg.match(/aaw|halo|manika|lamayo|😘|😍|❤️|love|adare/gi)){
         R = "sendAudio:115"
     }
