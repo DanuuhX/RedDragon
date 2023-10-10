@@ -117,6 +117,9 @@ const autoReply2 = (msg) => {
     if(msg.match(/gm/gi)){
         R = "sendAudio:gom"
     }
+    if(msg.match(/gn/gi)){
+        R = "sendAudio:gon"
+    }
     if(msg.match(/aaw|halo|manika|lamayo|😘|😍|❤️|love|adare/gi)){
         R = "sendAudio:115"
     }
